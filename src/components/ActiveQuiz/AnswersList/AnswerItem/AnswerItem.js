@@ -13,7 +13,7 @@ const AnswerItem = props => {
       className={cls.join(' ')}
       onClick={() => props.onAnswerClick(props.answer.id)}
     >
-      {props.answer.text}
+      { props.answer.text }
     </li>
   )
 }
